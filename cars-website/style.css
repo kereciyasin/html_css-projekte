@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+p {
+  font-size: 10px;
+  color: #fff;
+  line-height: 16px;
+}
+.btn {
+  padding: 12px 28px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 30px;
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid red;
+}
+.btn:hover {
+  background-color: #000;
+  color: white;
+  border-color: #fff;
+  transition: ease 0.5s;
+}
+.container {
+  padding-left: 8%;
+  padding-right: 8%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../cars-website/images/images/bg.png);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: ease 0.5s;
+}
+nav ul li a:hover {
+  color: #000;
+}
+
+.row {
+  display: flex;
+  column-gap: 10px;
+  height: 88px;
+}
+.col {
+  flex-basis: 50%;
+}
+
+H1 {
+  color: #fff;
+  font-size: 100px;
+}
+.desc {
+  font-size: 16px;
+}
