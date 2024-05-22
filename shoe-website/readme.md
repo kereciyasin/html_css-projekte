@@ -52,6 +52,4 @@ This project is a simple shoe website built using HTML and CSS. The website show
 - **Font Awesome**: [Font Awesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css) for the icons.
 - **Google Fonts**: [Poppins](https://fonts.googleapis.com/css2?family=Poppins&display=swap) for the font.
 
-## License
 
-This project is open-source and available under the [MIT License](LICENSE).
